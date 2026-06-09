@@ -20,6 +20,9 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (receivedNumber == 666) {
         servos.P1.stop()
         servos.P0.stop()
+    } else if (receivedNumber == 594) {
+        servos.P0.stop()
+        servos.P1.stop()
     }
 })
 radio.setGroup(255)
